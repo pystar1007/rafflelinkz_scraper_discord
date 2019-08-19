@@ -1,0 +1,140 @@
+[08-18-2019 09:44:22] [INFO] 25 proxies loaded.
+[08-18-2019 09:44:22] [SUCESS] Start RaffleLinkz monitoring...
+[08-18-2019 09:44:27] [SUCESS] Get main page!
+[08-18-2019 09:45:49] [INFO] 25 proxies loaded.
+[08-18-2019 09:45:49] [SUCESS] Start RaffleLinkz monitoring...
+[08-18-2019 09:45:51] [ERROR] Get main page Status Code: 403
+[08-18-2019 09:45:53] [SUCESS] Get main page!
+[08-18-2019 09:51:10] [INFO] 25 proxies loaded.
+[08-18-2019 09:51:10] [SUCESS] Start RaffleLinkz monitoring...
+[08-18-2019 09:51:15] [ERROR] HTTPSConnectionPool(host='rafflelinkz.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x00000208664D5E48>, 'Connection to 81.128.197.121 timed out. (connect timeout=5)'))
+[08-18-2019 09:51:17] [ERROR] Get main page Status Code: 403
+[08-18-2019 09:51:18] [ERROR] Get main page Status Code: 403
+[08-18-2019 09:51:20] [ERROR] HTTPSConnectionPool(host='rafflelinkz.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000208664FA908>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)))
+[08-18-2019 09:51:26] [SUCESS] Get main page!
+[08-18-2019 09:53:20] [INFO] 25 proxies loaded.
+[08-18-2019 09:53:20] [SUCESS] Start RaffleLinkz monitoring...
+[08-18-2019 09:53:25] [ERROR] HTTPSConnectionPool(host='rafflelinkz.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out',)))
+[08-18-2019 09:53:29] [SUCESS] Get main page!
+[08-18-2019 09:54:36] [INFO] 25 proxies loaded.
+[08-18-2019 09:54:36] [SUCESS] Start RaffleLinkz monitoring...
+[08-18-2019 09:54:40] [ERROR] Get main page Status Code: 403
+[08-18-2019 09:54:43] [ERROR] Get main page Status Code: 403
+[08-18-2019 09:54:46] [SUCESS] Get main page!
+[08-18-2019 09:55:13] [INFO] 25 proxies loaded.
+[08-18-2019 09:55:14] [SUCESS] Start RaffleLinkz monitoring...
+[08-18-2019 09:55:17] [SUCESS] Get main page!
+[08-18-2019 09:55:23] [INFO] 25 proxies loaded.
+[08-18-2019 09:55:23] [SUCESS] Start RaffleLinkz monitoring...
+[08-18-2019 09:55:26] [SUCESS] Get main page!
+[08-18-2019 10:03:19] [INFO] 25 proxies loaded.
+[08-18-2019 10:03:19] [SUCESS] Start RaffleLinkz monitoring...
+[08-18-2019 10:03:25] [ERROR] HTTPSConnectionPool(host='rafflelinkz.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x00000197EAEA6E48>, 'Connection to 157.55.197.14 timed out. (connect timeout=5)'))
+[08-18-2019 10:03:27] [SUCESS] Get main page!
+[08-18-2019 10:03:41] [INFO] 25 proxies loaded.
+[08-18-2019 10:03:41] [SUCESS] Start RaffleLinkz monitoring...
+[08-18-2019 10:03:43] [SUCESS] Get main page!
+[08-18-2019 10:04:13] [INFO] 25 proxies loaded.
+[08-18-2019 10:04:13] [SUCESS] Start RaffleLinkz monitoring...
+[08-18-2019 10:04:16] [SUCESS] Get main page!
+[08-18-2019 15:25:01] [INFO] 25 proxies loaded.
+[08-18-2019 15:25:01] [SUCESS] Start RaffleLinkz monitoring...
+[08-18-2019 15:25:13] [SUCESS] Get main page!
+[08-18-2019 15:25:20] [INFO] 25 proxies loaded.
+[08-18-2019 15:25:20] [SUCESS] Start RaffleLinkz monitoring...
+[08-18-2019 15:25:25] [ERROR] HTTPSConnectionPool(host='rafflelinkz.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x0000025236AC5E10>, 'Connection to 81.128.197.121 timed out. (connect timeout=5)'))
+[08-18-2019 15:25:30] [SUCESS] Get main page!
+[08-18-2019 15:30:07] [INFO] 25 proxies loaded.
+[08-18-2019 15:30:07] [SUCESS] Start RaffleLinkz monitoring...
+[08-18-2019 15:30:12] [ERROR] HTTPSConnectionPool(host='rafflelinkz.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x00000129E9926E48>, 'Connection to 81.128.197.122 timed out. (connect timeout=5)'))
+[08-18-2019 15:30:17] [SUCESS] Get main page!
+[08-18-2019 15:33:19] [INFO] 25 proxies loaded.
+[08-18-2019 15:33:19] [SUCESS] Start RaffleLinkz monitoring...
+[08-18-2019 15:33:24] [ERROR] HTTPSConnectionPool(host='rafflelinkz.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x0000015BB4176E48>, 'Connection to 157.55.197.14 timed out. (connect timeout=5)'))
+[08-18-2019 15:33:29] [SUCESS] Get main page!
+[08-18-2019 15:41:25] [INFO] 25 proxies loaded.
+[08-18-2019 15:41:25] [SUCESS] Start RaffleLinkz monitoring...
+[08-18-2019 15:41:30] [ERROR] HTTPSConnectionPool(host='rafflelinkz.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x00000153B06E5DD8>, 'Connection to 88.150.180.249 timed out. (connect timeout=5)'))
+[08-18-2019 15:41:35] [ERROR] HTTPSConnectionPool(host='rafflelinkz.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x00000153B070B2B0>, 'Connection to 35.235.75.244 timed out. (connect timeout=5)'))
+[08-18-2019 15:41:40] [ERROR] HTTPSConnectionPool(host='rafflelinkz.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x00000153B070B898>, 'Connection to 157.55.197.14 timed out. (connect timeout=5)'))
+[08-18-2019 15:41:47] [SUCESS] Get main page!
+[08-18-2019 15:42:54] [INFO] 25 proxies loaded.
+[08-18-2019 15:42:54] [SUCESS] Start RaffleLinkz monitoring...
+[08-18-2019 15:43:06] [ERROR] Cloudflare captcha challenge presented for rafflelinkz.com (cfscrape cannot solve captchas). Your OpenSSL version is lower than 1.1.1. Please upgrade your OpenSSL library and recompile Python.
+[08-18-2019 15:43:09] [ERROR] Cloudflare captcha challenge presented for rafflelinkz.com (cfscrape cannot solve captchas). Your OpenSSL version is lower than 1.1.1. Please upgrade your OpenSSL library and recompile Python.
+[08-18-2019 15:43:17] [ERROR] HTTPSConnectionPool(host='rafflelinkz.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out',)))
+[08-18-2019 15:43:22] [ERROR] HTTPSConnectionPool(host='rafflelinkz.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out',)))
+[08-18-2019 15:43:30] [ERROR] HTTPSConnectionPool(host='rafflelinkz.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out',)))
+[08-18-2019 15:43:38] [ERROR] Cloudflare captcha challenge presented for rafflelinkz.com (cfscrape cannot solve captchas). Your OpenSSL version is lower than 1.1.1. Please upgrade your OpenSSL library and recompile Python.
+[08-18-2019 15:43:44] [SUCESS] Get main page!
+[08-18-2019 15:43:44] [ERROR] 'bytes' object has no attribute 'encode'
+[08-18-2019 15:43:45] [ERROR] HTTPSConnectionPool(host='rafflelinkz.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001DFB31A67B8>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)))
+[08-18-2019 15:43:56] [SUCESS] Get main page!
+[08-18-2019 15:43:56] [ERROR] 'bytes' object has no attribute 'encode'
+[08-18-2019 19:14:14] [INFO] 25 proxies loaded.
+[08-18-2019 19:14:15] [SUCESS] Start RaffleLinkz monitoring...
+[08-18-2019 19:14:19] [ERROR] Cloudflare captcha challenge presented for rafflelinkz.com (cfscrape cannot solve captchas). Your OpenSSL version is lower than 1.1.1. Please upgrade your OpenSSL library and recompile Python.
+[08-18-2019 19:14:23] [ERROR] HTTPSConnectionPool(host='rafflelinkz.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+[08-18-2019 19:14:28] [SUCESS] Get main page!
+[08-18-2019 19:43:38] [INFO] 25 proxies loaded.
+[08-18-2019 19:43:38] [SUCESS] Start RaffleLinkz monitoring...
+[08-18-2019 19:43:44] [ERROR] HTTPSConnectionPool(host='rafflelinkz.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x00000280ACC22390>, 'Connection to 157.55.197.14 timed out. (connect timeout=5)'))
+[08-18-2019 19:43:49] [ERROR] HTTPSConnectionPool(host='rafflelinkz.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x00000280ACC22860>, 'Connection to 24.113.38.149 timed out. (connect timeout=5)'))
+[08-18-2019 19:43:49] [ERROR] HTTPSConnectionPool(host='rafflelinkz.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+[08-18-2019 19:43:54] [ERROR] HTTPSConnectionPool(host='rafflelinkz.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x00000280ACC22C18>, 'Connection to 81.128.197.121 timed out. (connect timeout=5)'))
+[08-18-2019 19:43:59] [ERROR] HTTPSConnectionPool(host='rafflelinkz.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out',)))
+[08-18-2019 19:44:01] [SUCESS] Get main page!
+[08-18-2019 23:00:40] [INFO] 25 proxies loaded.
+[08-18-2019 23:00:40] [SUCESS] Start RaffleLinkz monitoring...
+[08-18-2019 23:00:43] [SUCESS] Get main page!
+[08-18-2019 23:03:58] [INFO] 25 proxies loaded.
+[08-18-2019 23:03:58] [SUCESS] Start RaffleLinkz monitoring...
+[08-18-2019 23:04:04] [SUCESS] Get main page!
+[08-18-2019 23:21:49] [INFO] 25 proxies loaded.
+[08-18-2019 23:21:49] [SUCESS] Start RaffleLinkz monitoring...
+[08-18-2019 23:21:51] [SUCESS] Get main page!
+[08-18-2019 23:23:11] [INFO] 25 proxies loaded.
+[08-18-2019 23:23:11] [SUCESS] Start RaffleLinkz monitoring...
+[08-18-2019 23:23:16] [ERROR] HTTPSConnectionPool(host='rafflelinkz.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x00000245B89C14A8>, 'Connection to 81.128.197.121 timed out. (connect timeout=5)'))
+[08-18-2019 23:23:19] [SUCESS] Get main page!
+[08-18-2019 23:40:02] [INFO] 25 proxies loaded.
+[08-18-2019 23:40:02] [SUCESS] Start RaffleLinkz monitoring...
+[08-18-2019 23:40:04] [ERROR] Get main page Status Code: 403
+[08-18-2019 23:40:06] [ERROR] Get main page Status Code: 403
+[08-18-2019 23:40:06] [SUCESS] Get main page!
+[08-18-2019 23:43:04] [INFO] 25 proxies loaded.
+[08-18-2019 23:43:04] [SUCESS] Start RaffleLinkz monitoring...
+[08-18-2019 23:43:12] [SUCESS] Get main page!
+[08-18-2019 23:46:46] [INFO] 25 proxies loaded.
+[08-18-2019 23:46:46] [SUCESS] Start RaffleLinkz monitoring...
+[08-18-2019 23:46:51] [SUCESS] Get main page!
+[08-19-2019 00:09:18] [INFO] 25 proxies loaded.
+[08-19-2019 00:09:19] [SUCESS] Start RaffleLinkz monitoring...
+[08-19-2019 00:09:21] [SUCESS] Get main page!
+[08-19-2019 00:10:22] [INFO] 25 proxies loaded.
+[08-19-2019 00:10:22] [SUCESS] Start RaffleLinkz monitoring...
+[08-19-2019 00:10:25] [SUCESS] Get main page!
+[08-19-2019 00:10:27] [SUCESS] Found NEW Post <Air Jordan 1 High Satin Black Toe>
+[08-19-2019 00:10:28] [SUCESS] Found NEW Post <Yeezy 500 Bone White>
+[08-19-2019 00:10:29] [SUCESS] Found NEW Post <Yeezy 500 Bone White>
+[08-19-2019 00:10:30] [SUCESS] Found NEW Post <Air Jordan 1 High Satin Black Toe>
+[08-19-2019 00:10:31] [SUCESS] Found NEW Post <Nike SB Air Jordan 1 High LA to Chicago>
+[08-19-2019 00:10:32] [SUCESS] Found NEW Post <Air Jordan 1 High Satin Black Toe>
+[08-19-2019 00:10:33] [SUCESS] Found NEW Post <Yeezy Boost 700 Wave Runner>
+[08-19-2019 00:10:34] [SUCESS] Found NEW Post <Yeezy Boost 700 Wave Runner>
+[08-19-2019 00:10:35] [SUCESS] Found NEW Post <Air Jordan 1 High Satin Black Toe>
+[08-19-2019 00:10:36] [SUCESS] Found NEW Post <Air Jordan 1 High Satin Black Toe>
+[08-19-2019 00:11:09] [INFO] 25 proxies loaded.
+[08-19-2019 00:11:09] [SUCESS] Start RaffleLinkz monitoring...
+[08-19-2019 00:11:18] [ERROR] HTTPSConnectionPool(host='rafflelinkz.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out',)))
+[08-19-2019 00:11:18] [SUCESS] Get main page!
+[08-19-2019 00:11:20] [SUCESS] Found NEW Post <Air Jordan 1 High Satin Black Toe>
+[08-19-2019 00:11:21] [SUCESS] Found NEW Post <Yeezy 500 Bone White>
+[08-19-2019 00:11:23] [SUCESS] Found NEW Post <Yeezy 500 Bone White>
+[08-19-2019 00:11:24] [SUCESS] Found NEW Post <Air Jordan 1 High Satin Black Toe>
+[08-19-2019 00:11:26] [SUCESS] Found NEW Post <Nike SB Air Jordan 1 High LA to Chicago>
+[08-19-2019 00:11:27] [SUCESS] Found NEW Post <Air Jordan 1 High Satin Black Toe>
+[08-19-2019 00:11:29] [SUCESS] Found NEW Post <Yeezy Boost 700 Wave Runner>
+[08-19-2019 00:11:31] [SUCESS] Found NEW Post <Yeezy Boost 700 Wave Runner>
+[08-19-2019 00:11:33] [SUCESS] Found NEW Post <Air Jordan 1 High Satin Black Toe>
+[08-19-2019 00:11:34] [SUCESS] Found NEW Post <Air Jordan 1 High Satin Black Toe>
