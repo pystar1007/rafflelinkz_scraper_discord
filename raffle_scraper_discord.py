@@ -38,8 +38,9 @@ def send_discord(product, webhooks_url):
     embed.set_author(name='RaffleLinkz' , icon_url="https://pbs.twimg.com/profile_images/1118825586577690629/Ri1QnFHa_400x400.png")
     embed.add_field(name='Status', value=product['status'])
     embed.add_field(name='Link', value= product['link'])
+    embed.set_thumbnail(product['avatar'])
     embed.set_footer(text='RaffleLinkz' + ' Monitor ', icon_url="")
-
+    
     try:
         hook.send(embed=embed)
     except Exception as e:
@@ -180,17 +181,17 @@ class RaffleLinkzMonitor(threading.Thread):
             try:
                 response = self.scraper.get(self.base_url, timeout=5, headers=headers, proxies=proxies)
                 if response.status_code == 200:
-                    log('s', "Get main page!")
                     html = BS(brotli.decompress(response.content), features='lxml')
-                    for item in html.find_all('h1', 'entry-title'):
-                        url = item.find('a').get('href')
-                        self.get_post_url(url)
+                    try:
+                        for item in html.find_all('h1', 'entry-title'):
+                            url = item.find('a').get('href')
+                            self.get_post_url(url)
+                    except Exception as e:
+                        print_error_log(str(e))
                     return True
                 else:
-                    log('e', "Get main page Status Code: " + str(response.status_code))
                     continue
             except Exception as e:
-                log('e', str(e))
                 continue
 
     def get_post_url(self, url):
@@ -198,9 +199,11 @@ class RaffleLinkzMonitor(threading.Thread):
             response = self.scraper.get(url + "?unlock", timeout=5)
             if response.status_code == 200:
                 html = BS(response.content, features='lxml')
+
                 title = html.find('h1', 'entry-title').string
                 status = html.find('p', 'entry-meta').find_all('a')[1].string
-
+                avatar = html.find('div', 'post_author_avatar').get('style').split("(")[1].split(')')[0]
+                
                 if "Social" in status:
                     link = html.find('blockquote', 'instagram-media').get('data-instgrm-permalink')
                 else:
@@ -209,6 +212,7 @@ class RaffleLinkzMonitor(threading.Thread):
                 product.update({'title': title})
                 product.update({'link' : link})
                 product.update({'status' : status})
+                product.update({'avatar' : avatar})
                 alert = add_to_product_db(product, self.tablename, self.db_name)
                 if alert and alert == "NEW":
                     try:
@@ -223,13 +227,14 @@ class RaffleLinkzMonitor(threading.Thread):
     def run(self):
         log('s', "Start RaffleLinkz monitoring...")
         # TODO add while When live
-        # while True:
-        try:
-            self.visithomepage()
-        except Exception as e:
-            print_error_log(str(e))
-            # continue
-        # sleep(self.mon_cycle)
+        while True:
+            log('i', "Searching new Links ...")
+            try:
+                self.visithomepage()
+            except Exception as e:
+                print_error_log(str(e))
+                continue
+            sleep(self.mon_cycle)
 
 def get_config():
     try:
